@@ -28,16 +28,11 @@ a {
 .header {
   padding: 30px 0;
   background: rgba(16, 16, 29, 0.9);
-  &__logo {
-    z-index: 10;
-  }
-  &-fix {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 
   &__wrapper {
     display: flex;
@@ -240,9 +235,11 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    flex-wrap: wrap;
   }
 
   &__input {
+    margin-bottom: 15px;
     flex: 0 0 32%;
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid #ffffff;

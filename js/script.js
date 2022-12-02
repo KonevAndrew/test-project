@@ -29,18 +29,18 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
   //функция всплывающего хедера
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    const main = document.querySelector(".main");
+  // window.addEventListener("scroll", function () {
+  //   const header = document.querySelector(".header");
+  //   const main = document.querySelector(".main");
 
-    if (window.scrollY > header.clientHeight * 3) {
-      header.classList.add("header-fix");
-      main.style.marginTop = `${header.clientHeight}px`;
-    } else {
-      header.classList.remove("header-fix");
-      main.style.marginTop = 0;
-    }
-  });
+  //   if (window.scrollY > header.clientHeight * 3) {
+  //     header.classList.add("header-fix");
+  //     main.style.marginTop = `${header.clientHeight}px`;
+  //   } else {
+  //     header.classList.remove("header-fix");
+  //     main.style.marginTop = 0;
+  //   }
+  // });
 
 
   //функция изменяющая текст инпут файла, добавляет название добавленного файла
