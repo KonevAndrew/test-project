@@ -59,7 +59,6 @@ window.addEventListener("DOMContentLoaded", () => {
         inputText.innerHTML = `Было загруженно ${inputFile.files.length} файлов`;
         break;
     }
-    console.log(inputFile.files);
   });
 
 
