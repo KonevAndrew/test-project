@@ -10,6 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const inputFile = document.querySelector(".input-file");
   const inputText = document.querySelector(".file-label span");
   const inputImg = document.querySelector(".file-label img");
+  const body = document.querySelector("body");
 
   title.classList.add("main__title-active");
 
@@ -18,6 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("hamburger_active");
     menu.classList.toggle("header__item-active");
+    body.classList.toggle("hidden");
   });
 
   //функция добавляет значение range в span

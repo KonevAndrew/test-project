@@ -22,10 +22,15 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  overflow: hidden;
+}
 .header {
   padding: 30px 0;
   background: rgba(16, 16, 29, 0.9);
-
+  &__logo {
+    z-index: 10;
+  }
   &-fix {
     position: fixed;
     top: 0;
