@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   //функция добавляет значение range в span
-  range.addEventListener("mousemove", function () {
+  range.addEventListener("input", function () {
     rangeOut.innerHTML = range.value + " %";
   });
 
